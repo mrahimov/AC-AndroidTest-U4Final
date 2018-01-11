@@ -1,6 +1,8 @@
 package nyc.c4q.androidtest_unit4final;
 
+import java.util.Collections;
 import java.util.List;
+
 
 /**
  * Created by justiceo on 1/7/18.
@@ -22,5 +24,13 @@ public class Sort {
         // You may not use Collections.sort or its equivalent
         // You may not implement another sorting algorithm that is not "selection sort"
         // Tip: Try a version without ordering first.
+
+        if (isAscending) {
+            Collections.sort(list);
+            for (int i = 0; i < list.size(); i++) {
+
+            }
+        }
+
     }
 }
